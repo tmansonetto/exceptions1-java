@@ -12,11 +12,12 @@ import exceptions.DomainException;
 import exceptions.DomainException;
 
 public class Projeto24 {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
-        System.out.println("TRATAMENTO DE ERROS E EXCEÇÕES************************** ");
+        System.out.println();
+        System.out.println("*************TRATAMENTO DE ERROS E EXCEÇÕES************************** ");
+        System.out.println();
 
         try {
             System.out.print("Room number: ");
